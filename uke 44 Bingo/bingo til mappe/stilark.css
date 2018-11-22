@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div {
+  text-align: center;
+  width: 200px;  
+  height: 200px;
+  margin: 5% auto;
+  border: 1px solid brown;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+body {
+  font-family:verdana;
+  
+}
+input{
+  margin:5px 10px;
+  padding: 5px;
+  border-radius: 5%;
+
+}
+#sisteTall{
+  line-height:200px;
+  font-size:50px;
+}
+#tallRekke{
+ padding:2%;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+

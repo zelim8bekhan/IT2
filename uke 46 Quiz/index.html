@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <script src ="script.js"></script>
+        <script src ="stilark.css"></script>
+    
+</head>
+<body>
+    
+    <h3>Quiz</h3>
+
+    <p><strong>Her starter quizen</strong> </p>
+
+    <div id="registrerspillerId">
+        <p>Dinn navn:<input type="text" id="navnId"></p>
+        <input type="button" id="registrerSpillerKnapp" value="Registerer spiller">
+
+    </div>
+
+    <input type = "button" id = "startSpill" value = "Start quiz">
+
+
+    <span id="spill">
+        <div id="sporsmaalsDiv"></div>
+                <form id="radioId" name = "radioId">
+                        <input type="radio" name="radioknapp" value="0" id="radioId0" <div id="svarAlt0"> </div> <br>
+                        <input type="radio" name="radioknapp" value="1" id="radioId1" <div id="svarAlt1" > </div> <br>
+                        <input type="radio" name="radioknapp" value="3" id="radioId2" <div id="svarAlt2"> </div>
+                </form> 
+                <input type = "button" value = "Neste spørsmål" id = "nesteKnapp">
+                <div id="svar"></div>   
+                <div id="poeng"></div>
+    </span>
+    </body>
+    </html>

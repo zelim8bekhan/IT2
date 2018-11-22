@@ -1,0 +1,27 @@
+.dot {
+    height: 250px;
+    width: 250px;
+    background-color: hsl(120, 100%, 50%);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blue {
+    background-color: hsl(240, 100%, 50%);
+    transition-duration: 1s;
+}
+.blue:hover {
+    background-color: hsl(0, 100%, 50%);
+    transition-duration: 1s;
+}
+.red {
+    background-color: rgb(200, 255, 0);
+    transition-duration: 1s;
+}
+
+#Fargeskift:active {
+    background-color: rgb(251, 255, 0)
+}
+*{
+    background-color: white
+}
